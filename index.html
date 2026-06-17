@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+            <div class="container">
+
+                <a class="navbar-brand fw-bold fs-3" href="#">
+                    🐾 BowMart
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Pets
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        Dogs
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        Cats
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        Birds
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        Rabbits
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Products
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        Pet Food
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        Toys
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        Beds
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        Accessories
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">
+                                Services
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <form class="d-flex me-3">
+                        <input class="form-control me-2" type="search" placeholder="Search Pets">
+                        <button class="btn btn-light" type="submit">
+                            Search
+                        </button>
+                    </form>
+
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-outline-light">
+                            Login
+                        </button>
+
+                        <button class="btn btn-warning">
+                            Sign Up
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">
+            Find Your Perfect Pet Companion
+        </h1>
+
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+                Welcome to PawMart, your trusted destination for healthy pets,
+                premium pet food, toys, accessories, and professional pet care
+                services. Discover loving companions and everything your pets need
+                to live a happy and healthy life.
+            </p>
+
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+                    Explore Pets
+                </button>
+
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+                    Shop Now
+                </button>
+            </div>
+        </div>
+
+        <div class="overflow-hidden" style="max-height: 60vh;">
+            <div class="container px-5">
+                <img src="doggs.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Happy Pets" width="700"
+                    height="500" loading="lazy">
+            </div>
+        </div>
+    </div>
+
+</body>
+<section>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="golden.jpg" class="card-img-top" alt="Golden Retriever">
+                    <div class="card-body">
+                        <h5 class="card-title">Golden Retriever</h5>
+                        <p class="card-text">
+                            Friendly, intelligent, and loyal. Perfect for families and great with children.
+                        </p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3 d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="lab2.jpg" class="card-img-top" alt="Labrador Retriever">
+                    <div class="card-body">
+                        <h5 class="card-title">Labrador Retriever</h5>
+                        <p class="card-text">
+                            Energetic and affectionate. One of the most popular and trainable dog breeds.
+                        </p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3  d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="ger.jpg" class="card-img-top" alt="German Shepherd">
+                    <div class="card-body">
+                        <h5 class="card-title">German Shepherd</h5>
+                        <p class="card-text">
+                            Intelligent, courageous, and protective. Commonly used in police and rescue work.
+                        </p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-3  d-flex justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="pug.jpg" class="card-img-top" alt="Pug">
+                    <div class="card-body">
+                        <h5 class="card-title">Pug</h5>
+                        <p class="card-text">
+                            Charming and loving. Pugs are known for their adorable faces and playful nature.
+                        </p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Why Choose DogMart?</h2>
+
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+            <!-- Feature 1 -->
+            <div class="feature col">
+                <div
+                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <i class="bi bi-basket-fill"></i>
+                </div>
+
+                <h3 class="fs-2 text-body-emphasis">Premium Dog Food</h3>
+
+                <p>
+                    Discover nutritious dog food from trusted brands. We offer healthy meals,
+                    treats, and supplements to keep your furry friend active and happy.
+                </p>
+
+                <a href="#" class="icon-link">
+                    Shop Food
+                    <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature col">
+                <div
+                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <i class="bi bi-heart-fill"></i>
+                </div>
+
+                <h3 class="fs-2 text-body-emphasis">Pet Health Care</h3>
+
+                <p>
+                    Keep your dogs healthy with quality healthcare products, grooming essentials,
+                    wellness supplements, and expert care recommendations.
+                </p>
+
+                <a href="#" class="icon-link">
+                    Explore Care
+                    <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature col">
+                <div
+                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <i class="bi bi-truck"></i>
+                </div>
+
+                <h3 class="fs-2 text-body-emphasis">Fast Home Delivery</h3>
+
+                <p>
+                    Get your pet's favorite food, toys, and accessories delivered right to your
+                    doorstep with quick and reliable shipping services.
+                </p>
+
+                <a href="#" class="icon-link">
+                    Learn More
+                    <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#chevron-right"></use>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal text-body-emphasis">DogMart Membership Plans</h1>
+    <p class="fs-5 text-body-secondary">
+        Give your furry friends the best care with our membership plans. Enjoy discounts on pet food,
+        grooming services, veterinary consultations, and exclusive member benefits.
+    </p>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+    <!-- Basic Plan -->
+    <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Basic Paw Plan</h4>
+            </div>
+            <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                    Rs 499<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>5% Discount on Dog Food</li>
+                    <li>Monthly Pet Care Tips</li>
+                    <li>Email Support</li>
+                    <li>Exclusive Member Offers</li>
+                </ul>
+
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+                    Join Now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Premium Plan -->
+    <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Premium Paw Plan</h4>
+            </div>
+            <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                    Rs 1499<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>10% Discount on All Products</li>
+                    <li>Free Grooming Session</li>
+                    <li>Priority Customer Support</li>
+                    <li>Health Check Reminders</li>
+                </ul>
+
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ultimate Plan -->
+    <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Ultimate Paw Plan</h4>
+            </div>
+            <div class="card-body">
+                <h1 class="card-title pricing-card-title">
+                    Rs 2999<small class="text-body-secondary fw-light">/mo</small>
+                </h1>
+
+                <ul class="list-unstyled mt-3 mb-4">
+                    <li>15% Discount on All Products</li>
+                    <li>Monthly Grooming Service</li>
+                    <li>Veterinary Consultation</li>
+                    <li>24/7 Customer Support</li>
+                </ul>
+
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+<h2 class="display-6 text-center mb-4">Compare Plans</h2>
+
+<table class="table text-center">
+    <thead>
+        <tr>
+            <th style="width: 34%;"></th>
+            <th>Basic Paw</th>
+            <th>Premium Paw</th>
+            <th>Ultimate Paw</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row" class="text-start">Pet Food Discounts</th>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+        </tr>
+
+        <tr>
+            <th scope="row" class="text-start">Free Grooming</th>
+            <td>✖</td>
+            <td>✔</td>
+            <td>✔</td>
+        </tr>
+
+        <tr>
+            <th scope="row" class="text-start">Vet Consultation</th>
+            <td>✖</td>
+            <td>✖</td>
+            <td>✔</td>
+        </tr>
+
+        <tr>
+            <th scope="row" class="text-start">Health Tips</th>
+            <td>✔</td>
+            <td>✔</td>
+            <td>✔</td>
+        </tr>
+
+        <tr>
+            <th scope="row" class="text-start">Priority Support</th>
+            <td>✖</td>
+            <td>✔</td>
+            <td>✔</td>
+        </tr>
+
+        <tr>
+            <th scope="row" class="text-start">24/7 Support</th>
+            <td>✖</td>
+            <td>✖</td>
+            <td>✔</td>
+        </tr>
+    </tbody>
+</table>
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+
+        <!-- Brand -->
+        <div class="col-12 col-md">
+            <h4 class="fw-bold text-primary">🐶 DogMart</h4>
+            <small class="d-block mb-3 text-body-secondary">
+                © 2025 DogMart Pet Store. All Rights Reserved.
+            </small>
+            <p class="text-body-secondary">
+                Your trusted destination for dog food, toys, grooming products, and pet care essentials.
+            </p>
+        </div>
+
+        <!-- Shop -->
+        <div class="col-6 col-md">
+            <h5>Shop</h5>
+            <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Dog Food</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Dog Treats</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Dog Toys</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Accessories</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Grooming Products</a></li>
+            </ul>
+        </div>
+
+        <!-- Resources -->
+        <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Pet Care Blog</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Dog Training Tips</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Health & Nutrition</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Veterinary Advice</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">FAQs</a></li>
+            </ul>
+        </div>
+
+        <!-- About -->
+        <div class="col-6 col-md">
+            <h5>About DogMart</h5>
+            <ul class="list-unstyled text-small">
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">About Us</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Our Team</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Store Locations</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy Policy</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms & Conditions</a></li>
+                <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
+
+
+</body>
+
+
+</html>
